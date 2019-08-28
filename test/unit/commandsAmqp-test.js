@@ -144,6 +144,8 @@ describe('AMQP Transport binding: commands', function() {
             });
         });
         it('should publish the command information in the AMQP topic', function(done) {
+            this.timeout(5000);
+
             var commandMsg = '{"PING":{"data":"22"}}',
                 payload;
 
@@ -165,7 +167,7 @@ describe('AMQP Transport binding: commands', function() {
                         should.exist(payload);
                         payload.should.equal(commandMsg);
                         done();
-                    }, 5000);
+                    }, 1000);
                 });
             });
         });
