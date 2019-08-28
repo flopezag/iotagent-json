@@ -144,8 +144,6 @@ describe('AMQP Transport binding: commands', function() {
             });
         });
         it('should publish the command information in the AMQP topic', function(done) {
-            this.timeout(5000);
-
             var commandMsg = '{"PING":{"data":"22"}}',
                 payload;
 
