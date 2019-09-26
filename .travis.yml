@@ -4,7 +4,6 @@ sudo: required
 branches:
   only:
     - master
-    - develop
 
 services:
   - rabbitmq
@@ -43,7 +42,7 @@ jobs:
 
       after_script:
         - npm run test:coveralls
-        
+
     - stage: test
       name: "Unit Tests: Node 12"
       node_js: 12
