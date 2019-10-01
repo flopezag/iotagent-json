@@ -223,5 +223,3 @@ cores).
 If you want to get more details about the configuration of the system and node.js for high performance scenarios, please
 refer to the
 [Installation Guide](https://iotagent-node-lib.readthedocs.io/en/latest/installationguide/index.html#configuration).
-
-(put the link to the installation guide describing)
