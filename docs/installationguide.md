@@ -294,7 +294,8 @@ It means that we need to make some changes in the execution of node.js and in th
             * soft rss unlimited
             * hard rss unlimited
 
-    -   **stack**   
+    -   **stack**
+
         Maximum stack size in KB, we recommend to change to `unlimited` both hard and soft types.
 
             * soft stack unlimited
