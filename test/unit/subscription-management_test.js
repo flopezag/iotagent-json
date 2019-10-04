@@ -15,7 +15,7 @@
  *
  * You should have received a copy of the GNU Affero General Public
  * License along with iotagent-json.
- * If not, seehttp://www.gnu.org/licenses/.
+ * If not, see http://www.gnu.org/licenses/.
  *
  * For those usages not covered by the GNU Affero General Public License
  * please contact with::[contacto@tid.es]
@@ -107,7 +107,6 @@ describe('Subscription management', function() {
                 .reply(200, utils.readExampleFile('./test/contextResponses/multipleMeasuresSuccess.json'));
         });
 
-
         //
         // FIXME: the following tests is causing errors in travis
         //
@@ -118,7 +117,6 @@ describe('Subscription management', function() {
         //     Error: Timeout of 3000ms exceeded. For async tests and hooks, ensure
         //     "done()" is called; if returning a Promise, ensure it resolves.
         //     (/home/travis/build/telefonicaid/iotagent-json/test/unit/subscription-management_test.js)
-
 
         // it('should cease sending measures to the CB', function(done) {
         //     async.series(
